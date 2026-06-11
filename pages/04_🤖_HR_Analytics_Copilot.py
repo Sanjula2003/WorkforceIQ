@@ -4,6 +4,8 @@ import pandas as pd
 from utils.data_loader import load_data
 from utils.feature_engineering import create_workforce_health_score
 
+st.sidebar.title("🚀 WorkforceIQ")
+
 st.title("🤖 HR Analytics Copilot")
 
 st.caption(
@@ -85,6 +87,6 @@ elif question == "How healthy is the workforce?":
 st.markdown("---")
 
 st.caption(
-    "WorkforceIQ | AI-Powered Workforce Intelligence Platform"
+    "WorkforceIQ v1.0 | AI-Powered Workforce Intelligence Platform"
 )
 

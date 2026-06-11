@@ -10,6 +10,8 @@ st.set_page_config(
     layout="wide"
 )
 
+st.sidebar.title("🚀 WorkforceIQ")
+
 st.title("🧠 Explainable AI")
 
 st.caption(
@@ -144,5 +146,5 @@ st.dataframe(
 st.markdown("---")
 
 st.caption(
-    "WorkforceIQ | AI-Powered Workforce Intelligence Platform"
+    "WorkforceIQ v1.0 | AI-Powered Workforce Intelligence Platform"
 )

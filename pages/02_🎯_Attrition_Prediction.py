@@ -5,6 +5,8 @@ from utils.model_loader import load_model
 
 st.set_page_config(layout="wide")
 
+st.sidebar.title("🚀 WorkforceIQ")
+
 st.title("🎯 Attrition Prediction")
 
 st.caption(
@@ -76,5 +78,5 @@ st.dataframe(employee.T)
 st.markdown("---")
 
 st.caption(
-    "WorkforceIQ | AI-Powered Workforce Intelligence Platform"
+    "WorkforceIQ v1.0 | AI-Powered Workforce Intelligence Platform"
 )

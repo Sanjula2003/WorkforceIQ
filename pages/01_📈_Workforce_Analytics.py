@@ -4,6 +4,8 @@ import plotly.express as px
 
 st.set_page_config(layout="wide")
 
+st.sidebar.title("🚀 WorkforceIQ")
+
 # Load data
 df = pd.read_csv("data/WA_Fn-UseC_-HR-Employee-Attrition.csv")
 
@@ -165,5 +167,5 @@ st.warning(
 st.markdown("---")
 
 st.caption(
-    "WorkforceIQ | AI-Powered Workforce Intelligence Platform"
+    "WorkforceIQ v1.0 | AI-Powered Workforce Intelligence Platform"
 )

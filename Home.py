@@ -1,12 +1,20 @@
 import streamlit as st
 
+
+
 st.set_page_config(
     page_title="WorkforceIQ",
     page_icon="📊",
     layout="wide"
 )
 
+
+
 st.title("📊 WorkforceIQ")
+
+st.success(
+    "🚀 Explore Workforce Analytics, Predict Attrition Risk, and Understand Workforce Intelligence through Explainable AI."
+)
 
 st.subheader(
     "Predict • Explain • Retain"
@@ -75,5 +83,5 @@ st.metric(
 st.markdown("---")
 
 st.caption(
-    "WorkforceIQ | AI-Powered Workforce Intelligence Platform"
+    "WorkforceIQ v1.0 | AI-Powered Workforce Intelligence Platform"
 )
