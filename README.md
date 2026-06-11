@@ -5,7 +5,7 @@
   </p>
 </p>
 
-### Predict • Explain • Retain
+
 
 <p align="center">
   AI-Powered Workforce Intelligence Platform
